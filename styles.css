@@ -13,6 +13,10 @@
   min-height: 45px;
 }
 
+body {
+  background-color: #4ba89a;
+}
+
 .mdl-layout__title {
   font-size: 14px;
   text-align: center;
@@ -21,20 +25,6 @@
 
 .is-compact .mdl-layout__title span {
   display: none;
-}
-
-.mdl-card__lg {
-  width: 100%;
-}
-
-.mdl-card__md {
-  margin: 8px;
-  width: calc(66.666666666% - 16px);
-}
-
-.mdl-card__sm {
-  margin: 8px;
-  width: calc(33.333333333% - 16px);
 }
 
 .portfolio-logo-row {
@@ -100,7 +90,15 @@
 }
 
 .portfolio-card {
-  margin: 8px;
+  margin: 16px;
+}
+
+.mdl-cell--8-col {
+  width: calc(66.6666666666% - 32px);
+}
+
+.mdl-cell--4-col {
+  width: calc(33.3333333333% - 32px);
 }
 
 .portfolio-card .mdl-card__title {
@@ -108,10 +106,13 @@
 }
 
 .portfolio-card .mdl-card__title-text {
-  color: white;
   font-size: 36px;
   line-height: 48px;
-  padding: 16px;
+}
+
+.mdl-cell--12-col .mdl-card__title-text {
+  font-size: 48px;
+  line-height: 64px;
 }
 
 .portfolio-blog-card-full-bg {
@@ -126,8 +127,38 @@
   background: url(images/example-blog06.jpg) center / cover;
 }
 
+.mdl-card__media {
+  background-position: 50% 50%;
+  background-attachment: scroll;
+  height: 350px;
+}
+
+.portfolio-project {
+  margin: 350px 0 0 0;
+  width: 100%
+}
+
+.insecurity-blanket {
+  background: url(images/insecurity-blanket.jpeg) center / cover;
+  background-repeat: no-repeat;
+}
+
 .portfolio-blog-card-compact .mdl-card__title {
   padding-bottom: 0;
+}
+
+.portfolio-project h2 {
+  text-align: center;
+}
+
+.mdl-card__supporting-text {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.portfolio-project .subtitle {
+  text-align: center;
+  width: 100%;
 }
 
 .portfolio-blog-card-bg > .mdl-card__actions {
@@ -138,13 +169,13 @@
 
 img.article-image {
   width: 100%;
-  height: auto;
+  height: 350px;
 }
 
 .portfolio-max-width {
-  max-width: 1100px;
-  margin: auto;
-  margin-top: 500px;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .portfolio-copy {
