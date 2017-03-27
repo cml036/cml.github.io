@@ -78,18 +78,6 @@ p {
   margin: 0;
 }
 
-.portfolio-card {
-  margin: 16px;
-}
-
-.mdl-cell--8-col {
-  width: calc(66.6666666666% - 32px);
-}
-
-.mdl-cell--4-col {
-  width: calc(33.3333333333% - 32px);
-}
-
 .portfolio-card .mdl-card__title {
   padding-bottom: 0;
 }
@@ -170,9 +158,14 @@ img.article-image {
   height: 350px;
 }
 
-.portfolio-max-width {
+.max-width {
   max-width: 100%;
-  margin: 0;
+  padding: 0;
+}
+
+.portfolio-page {
+  max-width: 1100px;
+  margin-bottom: 48px;
   padding: 0;
 }
 
