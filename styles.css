@@ -13,14 +13,24 @@
   min-height: 45px;
 }
 
+.mdl-layout__header-row .is-active {
+	color: rgb(255,171,64);
+}
+
+.mdl-layout__title {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+  text-decoration: none;
+}
+
 body {
   background-color: #4ba89a;
 }
 
-.mdl-layout__title {
-  font-size: 14px;
-  text-align: center;
-  font-weight: 300;
+p {
+  font-size: 18px;
 }
 
 .is-compact .mdl-layout__title span {
@@ -49,44 +59,23 @@ body {
   margin-top: 7px;
 }
 
-.portfolio-navigation-row {
-  background-color: rgba(0, 0, 0, 0.08);
-  text-transform: uppercase;
-  height: 45px;
-}
-
 .portfolio-navigation-row  .mdl-navigation {
   text-align: center;
   max-width: 900px;
   width: 100%;
 }
 
-.portfolio-navigation-row .mdl-navigation__link {
+.mdl-navigation__link {
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
   line-height: 42px;
+  font-size: 18px;
+  font-weight: lighter;
 }
 
 .portfolio-header .mdl-layout__drawer-button {
   margin: 0;
-}
-
-.portfolio-navigation-row .is-active {
-  position: relative;
-  font-weight: bold;
-}
-
-.portfolio-navigation-row .is-active:after {
-  content: "";
-  width: 70%;
-  height: 2px;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: rgb(255,64,129);
-  left: 15%;
 }
 
 .portfolio-card {
@@ -113,6 +102,15 @@ body {
 .mdl-cell--12-col .mdl-card__title-text {
   font-size: 48px;
   line-height: 64px;
+}
+
+.portfolio-project .mdl-card__title {
+  margin: auto;
+}
+
+.portfolio-project .subtitle {
+  max-width: 700px;
+  margin: auto;
 }
 
 .portfolio-blog-card-full-bg {
@@ -214,6 +212,10 @@ img.article-image {
     display: flex;
 }
 
+.invisible {
+  opacity: 0;
+}
+
 .portfolio-contact .mdl-textfield {
   width: 100%;
 }
@@ -224,6 +226,6 @@ img.article-image {
 }
 
 footer {
-  background-image: url(images/footer-background.png);
-  background-size: cover;
+  /*background-image: url(images/footer-background.png);
+  background-size: cover;*/
 }

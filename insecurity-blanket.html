@@ -31,21 +31,26 @@
 
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
-          <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
-              <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                  <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
-                  <a class="mdl-navigation__link" href="about.html">About</a>
-                  <a class="mdl-navigation__link" href="contact.html">Contact</a>
-              </nav>
-          </div>
-      </header>
-        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
-                <a class="mdl-navigation__link" href="about.html">About</a>
-                <a class="mdl-navigation__link" href="contact.html">Contact</a>
+      <!-- Header -->
+        <header class="mdl-layout__header mdl-layout__header--transparent">
+          <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <a class="mdl-layout__title" href ="index.html"><span class="mdl-layout-title">Chloe Lopez</span></a>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+              <a class="mdl-navigation__link" href="index.html">Portfolio</a>
+              <a class="mdl-navigation__link" href="about.html">About</a>
             </nav>
+          </div>
+        </header>
+        <div class="mdl-layout__drawer">
+          <span class="mdl-layout-title">Chloe Lopez</span>
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="index.html">Portfolio</a>
+            <a class="mdl-navigation__link" href="about.html">About</a>
+          </nav>
         </div>
         <main class="mdl-layout__content insecurity-blanket">
             <div class="mdl-grid portfolio-max-width">
@@ -54,7 +59,7 @@
                         <h2 class="mdl-card__title-text">Insecurity Blanket</h2>
                     </div>
                     <div class="mdl-card__supporting-text subtitle">
-                        <span>Design, UX and Frontend Development</span>
+                        <span>June 16, 2016 / Senior Year Project / Development and Implementation</span>
                     </div>
                     <div class="mdl-grid portfolio-copy">
                         <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Introduction</h3>

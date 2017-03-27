@@ -31,24 +31,31 @@
 
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
-            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
-                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                    <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
-                    <a class="mdl-navigation__link" href="about.html">About</a>
-                    <a class="mdl-navigation__link" href="contact.html">Contact</a>
-                </nav>
-            </div>
-        </header>
-        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
-                <a class="mdl-navigation__link" href="about.html">About</a>
-                <a class="mdl-navigation__link" href="contact.html">Contact</a>
+      <!-- Header -->
+        <header class="mdl-layout__header mdl-layout__header--transparent">
+          <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <a class="mdl-layout__title" href ="index.html"><span class="mdl-layout-title">Chloe Lopez</span></a>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+              <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
+              <a class="mdl-navigation__link" href="about.html">About</a>
             </nav>
+          </div>
+        </header>
+        <div class="mdl-layout__drawer">
+          <span class="mdl-layout-title">Chloe Lopez</span>
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="index.html">Portfolio</a>
+            <a class="mdl-navigation__link" href="about.html">About</a>
+          </nav>
         </div>
+      <!-- Body Content -->
         <main class="mdl-layout__content">
             <div class="mdl-grid portfolio-max-width">
+                <!-- Insecurity Blanket -->
                 <div class="mdl-cell--12-col mdl-card portfolio-card">
                     <div class="mdl-card__media insecurity-blanket">
                     </div>
@@ -56,16 +63,21 @@
                         <h2 class="mdl-card__title-text">Insecurity Blanket</h2>
                     </div>
                     <div class="mdl-card__supporting-text">
-                        Insecurity Blanket is a performance and collection of sculptural pieces. The piece incorporates the body, a crocheting performance, and crocheted “cocoons” with Processing and OpenCV technology.                    </div>
+                        <span class="mdl-chip">
+                            <span class="mdl-chip__text">Basic Chip</span>
+                        </span>
+                        Insecurity Blanket is a performance and collection of sculptural pieces. The piece incorporates the body, a crocheting performance, and crocheted “cocoons” with Processing and OpenCV technology.
+                    </div>
                     <div class="mdl-card__actions mdl-card--border">
                         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="insecurity-blanket.html">Read more</a>
                     </div>
                 </div>
+                <!-- ICAM.install -->
                 <div class="mdl-cell--8-col mdl-card portfolio-card">
                     <div class="mdl-card__media">
                     </div>
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Sunt nulla</h2>
+                        <h2 class="mdl-card__title-text">ICAM.install</h2>
                     </div>
                     <div class="mdl-card__supporting-text">
                         Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
@@ -74,6 +86,7 @@
                         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
                     </div>
                 </div>
+                <!-- Image -->
                 <div class="mdl-cell--4-col mdl-card portfolio-card">
                     <div class="mdl-card__media">
                     </div>
@@ -87,12 +100,13 @@
                         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
                     </div>
                 </div>
+                <!-- Burrd -->
                 <div class="mdl-cell--4-col mdl-card portfolio-card">
                     <div class="mdl-card__media">
                         <img class="article-image" src=" images/example-work03.jpg" border="0" alt="">
                     </div>
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Dashboard template</h2>
+                        <h2 class="mdl-card__title-text">Burrd</h2>
                     </div>
                     <div class="mdl-card__supporting-text">
                         Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
@@ -101,12 +115,13 @@
                         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
                     </div>
                 </div>
+                <!-- Portraits of Chatroulette -->
                 <div class="mdl-cell--4-col mdl-card portfolio-card">
                     <div class="mdl-card__media">
                         <img class="article-image" src=" images/example-work04.jpg" border="0" alt="">
                     </div>
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Text-heavy website</h2>
+                        <h2 class="mdl-card__title-text">Portraits of Chatroulette</h2>
                     </div>
                     <div class="mdl-card__supporting-text">
                         Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
@@ -115,54 +130,13 @@
                         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
                     </div>
                 </div>
+                <!-- Shellphone -->
                 <div class="mdl-cell--4-col mdl-card portfolio-card">
                     <div class="mdl-card__media">
                         <img class="article-image" src=" images/example-work08.jpg" border="0" alt="">
                     </div>
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Ex officia laborum</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell--4-col mdl-card portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/example-work05.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Stand-alone article</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell--4-col mdl-card portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/example-work06.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">MDL website</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell--4-col mdl-card portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/example-work09.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Consequat ut quis</h2>
+                        <h2 class="mdl-card__title-text">Shellphone</h2>
                     </div>
                     <div class="mdl-card__supporting-text">
                         Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
@@ -172,14 +146,15 @@
                     </div>
                 </div>
             </div>
+            <!-- Footer -->
             <footer class="mdl-mini-footer">
                 <div class="mdl-mini-footer__left-section">
-                    <div class="mdl-logo">Simple portfolio website</div>
+                    <div class="mdl-logo">Chloe Lopez</div>
                 </div>
                 <div class="mdl-mini-footer__right-section">
                     <ul class="mdl-mini-footer__link-list">
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Privacy & Terms</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Resume</a></li>
                     </ul>
                 </div>
             </footer>
