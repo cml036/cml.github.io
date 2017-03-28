@@ -83,7 +83,7 @@ p {
 }
 
 .portfolio-card .mdl-card__title-text {
-  font-size: 36px;
+  font-size: 28px;
   line-height: 48px;
 }
 
@@ -129,12 +129,34 @@ p {
   background-repeat: no-repeat;
 }
 
+.icam-install {
+  background: url(images/icam-install.jpeg) top / cover;
+  background-repeat: no-repeat;
+}
+
 .portfolio-blog-card-compact .mdl-card__title {
   padding-bottom: 0;
 }
 
 .portfolio-project h2 {
   text-align: center;
+}
+
+.about-page h3 {
+  text-align: center;
+}
+
+.about-page p {
+  text-align: justify;
+}
+
+.contact-links {
+  text-align: center;
+  margin: 30px 8px;
+}
+
+.contact-button {
+  margin: 15px;
 }
 
 .mdl-card__supporting-text {
