@@ -134,11 +134,25 @@ p {
   background-repeat: no-repeat;
 }
 
+.portraits-chatroulette {
+  background: url(images/portrait-chatroulette.png) top;
+  background-repeat: no-repeat;
+}
+
 .portfolio-blog-card-compact .mdl-card__title {
   padding-bottom: 0;
 }
 
+.portfolio-page h2 {
+  color: white;
+}
+
 .portfolio-project h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.portfolio-copy h3 {
   text-align: center;
 }
 
@@ -193,6 +207,7 @@ img.article-image {
 
 .portfolio-copy {
   max-width: 700px;
+  margin-bottom: 150px;
 }
 
 .no-padding {
@@ -243,4 +258,20 @@ img.article-image {
 footer {
   /*background-image: url(images/footer-background.png);
   background-size: cover;*/
+}
+
+.next-button {
+  float: right;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.back-button {
+  float: left;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.mdl-button--accent a {
+  text-decoration: none;
 }
